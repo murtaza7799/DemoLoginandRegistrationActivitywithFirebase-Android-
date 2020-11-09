@@ -115,9 +115,7 @@ public class LoginActivity extends AppCompatActivity {
 
             int num = preparedStatement.executeUpdate();
 
-            System.out.println(num + " Rows effected. ");
-            System.out.println("User Added with user id : " + 5);
-            Toast.makeText(this, "TEST"+5, Toast.LENGTH_SHORT).show();
+
 
         } catch (Exception e) {
             e.printStackTrace();
